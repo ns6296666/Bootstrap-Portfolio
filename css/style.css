@@ -1,0 +1,11 @@
+#navbarSupportedContent {
+  float: right;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  /* float: right; */
+}
+ul li {
+  justify-content: end;
+}

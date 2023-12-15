@@ -2,7 +2,7 @@
 
 ## Description
 
-This Website is my Bootsrap portfolio . This project is all about bootsrap . It uses bootstrap library for css, how you can built website without creating your own css.
+This Website is my Bootstrap portfolio . This project is all about bootstrap . It uses bootstrap library for css, how you can built website with minimal css.
 
 ## Installation
 
