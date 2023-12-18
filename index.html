@@ -10,14 +10,14 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>My Portfolio</title>
   </head>
   <body>
     <!-- Navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,18 +38,18 @@
           <div class="d-flex row">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#my-self"
                   >My self</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Work</a>
+                <a class="nav-link active" href="#work">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Skills</a>
+                <a class="nav-link active" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#contact"
                   >Contact</a
                 >
               </li>
@@ -62,12 +62,12 @@
 
     <!-- hero section -->
 
-    <section class="hero">
+    <section class="hero" id="my-self">
       <div class="d-flex bg-light px-5">
         <div class="mb-4 rounded-3">
           <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Nidhi Sharma</h1>
-            <p class="col-md-8 col-sm-12 col-12 fs-4">
+            <p class="col-md-8 col-sm-12 col-12">
               I am an accomplished React Developer with a rich background
               spanning over 2 years, My expertise lies in meticulously
               translating intricate designs and wireframes into top-tier code,
@@ -89,7 +89,7 @@
     </section>
 
     <!-- work  section-->
-    <section class="work mb-5">
+    <section class="work mb-5" id="work">
       <div class="bg-body-tertiary rounded-3">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold text-center">Work</h1>
@@ -99,7 +99,7 @@
         <div class="row">
           <!-- Card 1 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-6">
-            <div class="card">
+            <div class="card work-card">
               <div class="card-body">
                 <h5 class="card-title">Natter</h5>
                 <h6 class="card-subtitle mb-2 text-muted">London</h6>
@@ -120,7 +120,7 @@
 
           <!-- Card 2 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-6">
-            <div class="card">
+            <div class="card work-card">
               <div class="card-body">
                 <h5 class="card-title">Ezdat Technology Pvt. Lmt.</h5>
                 <h6 class="card-subtitle mb-2 text-muted">India</h6>
@@ -144,7 +144,7 @@
 
           <!-- Card 3 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-6">
-            <div class="card">
+            <div class="card work-card">
               <div class="card-body">
                 <h5 class="card-title">Ritzyware</h5>
                 <h6 class="card-subtitle mb-2 text-muted">India</h6>
@@ -165,8 +165,83 @@
         </div>
       </div>
     </section>
+
+    <!-- skills -->
+
+    <section class="skills mb-5" id="skills">
+      <div class="bg-body-tertiary rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold text-center">Skills</h1>
+          <p class="text-center">Skills I will be learning in Bootcamp</p>
+        </div>
+      </div>
+      <div class="container-fluid px-5">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">HTML</div>
+            </div>
+          </div>
+          <!-- End card 1 -->
+
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">CSS</div>
+            </div>
+          </div>
+          <!-- End card 2 -->
+
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">JavaScript</div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+
+          <!-- Card 4 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6 mb-5">
+            <div class="card skill-card">
+              <div class="card-body text-center">Node.Js</div>
+            </div>
+          </div>
+          <!-- End card 4 -->
+          <!-- Card 5 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">Web APIS</div>
+            </div>
+          </div>
+          <!-- End card 5 -->
+
+          <!-- Card 6 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">Third Party APIS</div>
+            </div>
+          </div>
+          <!-- End card 6 -->
+          <!-- Card 7 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">Server Apis</div>
+            </div>
+          </div>
+          <!-- End card 7 -->
+          <!-- Card 8 -->
+          <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+            <div class="card skill-card">
+              <div class="card-body text-center">React</div>
+            </div>
+          </div>
+          <!-- End card 8 -->
+        </div>
+      </div>
+    </section>
     <!-- contact section -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <h4 class="display-5 fw-bold text-center">Get in Touch with me</h4>
       <div class="bd-example">
         <address class="text-center">

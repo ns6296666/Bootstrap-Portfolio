@@ -11,6 +11,20 @@ ul li {
 }
 
 /* work css */
-.card {
+.work-card {
   height: 300px;
+}
+
+/* skill css */
+
+.skill-card {
+  border: none !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100px;
+}
+.skill-card .card-body {
+  font-size: 20px;
+}
+.skills p {
+  font-size: 20px;
 }
