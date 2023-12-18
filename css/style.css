@@ -9,3 +9,8 @@ ul {
 ul li {
   justify-content: end;
 }
+
+/* work css */
+.card {
+  height: 300px;
+}
