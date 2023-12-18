@@ -1,5 +1,12 @@
-#navbarSupportedContent {
-  float: right;
+/* header css */
+.navbar a {
+  padding: 5px;
+}
+.navbar a:hover {
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 2ms;
 }
 ul {
   display: flex;
@@ -32,6 +39,14 @@ ul li {
 .skills p {
   font-size: 20px;
 }
+
+/* footer css */
 footer a {
   text-decoration: none;
+  padding: 5px;
+}
+footer a:hover {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
 }
