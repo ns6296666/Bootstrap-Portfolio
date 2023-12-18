@@ -22,9 +22,16 @@ ul li {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   height: 100px;
 }
+.skill-card :hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: lightgray;
+}
 .skill-card .card-body {
   font-size: 20px;
 }
 .skills p {
   font-size: 20px;
+}
+footer a {
+  text-decoration: none;
 }
